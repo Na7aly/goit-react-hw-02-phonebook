@@ -1,0 +1,25 @@
+  .component
+  {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+    border: 1px solid;
+    padding: 10px;
+}  
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 350px;
+    line-height: 1.5;
+}
+.buton{
+    margin-bottom: 5px;
+}
